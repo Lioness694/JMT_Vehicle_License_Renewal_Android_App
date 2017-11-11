@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="31dp"
+        android:text="@string/name"/>
+
+    <TextView
+        android:id="@+id/surnameTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nameTextView"
+        android:layout_alignStart="@+id/nameTextView"
+        android:layout_below="@+id/nameTextView"
+        android:layout_marginTop="40dp"
+        android:text="@string/surname"
+        />
+
+    <TextView
+        android:id="@+id/BookNumTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/surnameTextview"
+        android:layout_alignStart="@+id/surnameTextview"
+        android:layout_below="@+id/surnameTextview"
+        android:layout_marginTop="40dp"
+        android:text="@string/book_number"/>
+
+    <TextView
+        android:id="@+id/RegNumTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/BookNumTextview"
+        android:layout_alignStart="@+id/BookNumTextview"
+        android:layout_below="@+id/BookNumTextview"
+        android:layout_marginTop="40dp"
+        android:text="@string/reg_number"/>
+
+    <TextView
+        android:id="@+id/monthsTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RegNumTextview"
+        android:layout_alignStart="@+id/RegNumTextview"
+        android:layout_below="@+id/RegNumTextview"
+        android:layout_marginTop="40dp"
+        android:text="@string/months"/>
+
+    <TextView
+        android:id="@+id/addressTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/monthsTextview"
+        android:layout_alignStart="@+id/monthsTextview"
+        android:layout_below="@+id/monthsTextview"
+        android:layout_marginTop="40dp"
+        android:text="@string/address"/>
+
+    <Button
+        android:id="@+id/editRecordButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addressTextview"
+        android:layout_alignStart="@+id/addressTextview"
+        android:layout_below="@+id/addressTextview"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/holo_green_light"
+        android:text="@string/restart"/>
+
+    <Button
+        android:id="@+id/proceedPaymentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editRecordButton"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_toEndOf="@+id/editRecordButton"
+        android:layout_toRightOf="@+id/editRecordButton"
+        android:background="@android:color/holo_red_light"
+        android:text="@string/proceed_to_payment"/>
+
+    <TextView
+        android:id="@+id/actualNameTextview"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/proceedPaymentButton"
+        android:layout_alignStart="@+id/proceedPaymentButton"
+        android:layout_alignTop="@+id/nameTextView"
+        />
+
+    <TextView
+        android:id="@+id/actualSurnameTextView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/actualNameTextview"
+        android:layout_alignStart="@+id/actualNameTextview"
+        android:layout_alignTop="@+id/surnameTextview"
+        />
+
+    <TextView
+        android:id="@+id/actualBookNumTextView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/actualSurnameTextView"
+        android:layout_alignStart="@+id/actualSurnameTextView"
+        android:layout_alignTop="@+id/BookNumTextview"
+        />
+
+    <TextView
+        android:id="@+id/actualRegNumTextview"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/actualBookNumTextView"
+        android:layout_alignStart="@+id/actualBookNumTextView"
+        android:layout_alignTop="@+id/RegNumTextview"
+        />
+
+    <TextView
+        android:id="@+id/actualMonthsTextView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/actualRegNumTextview"
+        android:layout_alignStart="@+id/actualRegNumTextview"
+        android:layout_alignTop="@+id/monthsTextview"
+        />
+
+    <TextView
+        android:id="@+id/actualAddressTextView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/actualMonthsTextView"
+        android:layout_alignStart="@+id/actualMonthsTextView"
+        android:layout_alignTop="@+id/addressTextview"
+        />
+</RelativeLayout>

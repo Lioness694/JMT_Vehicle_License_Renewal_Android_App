@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">JMT Vehicle License Renewal</string>
+    <string name="submit">Submit</string>
+    <string name="update">Update Details</string>
+    <string name="payment_prompt">Select payment option</string>
+    <string name="name">Name:</string>
+    <string name="surname">Surname:</string>
+    <string name="book_number">Book Number:</string>
+    <string name="reg_number">Reg Number:</string>
+    <string name="months">Months:</string>
+    <string name="address">Address:</string>
+    <string name="restart">Restart</string>
+    <string name="proceed_to_payment">Proceed to Payment</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="vehicle_book_no">Vehicle Book No.</string>
+    <string name="vehicle_reg_no">Vehicle Reg No.</string>
+    <string name="payment_duration_months">Payment Duration (months)</string>
+    <string-array name="payment_options">
+        <item>Ecocash</item>
+        <item>Paynow</item>
+        <item>Visa</item>
+    </string-array>
+</resources>
